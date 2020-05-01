@@ -48,7 +48,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(170)))), ((int)(((byte)(154)))));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(93)))), ((int)(((byte)(142)))));
             this.panel1.Controls.Add(this.iconPictureBox1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -58,7 +58,7 @@
             // 
             // iconPictureBox1
             // 
-            this.iconPictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(170)))), ((int)(((byte)(154)))));
+            this.iconPictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(93)))), ((int)(((byte)(142)))));
             this.iconPictureBox1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.iconPictureBox1.IconChar = FontAwesome.Sharp.IconChar.Heartbeat;
             this.iconPictureBox1.IconColor = System.Drawing.SystemColors.ControlText;
@@ -103,7 +103,7 @@
             // 
             // Usuario
             // 
-            this.Usuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
+            this.Usuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(8)))), ((int)(((byte)(5)))));
             this.Usuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.Usuario.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Usuario.ForeColor = System.Drawing.Color.DimGray;
@@ -117,7 +117,7 @@
             // 
             // Contraseña
             // 
-            this.Contraseña.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
+            this.Contraseña.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(8)))), ((int)(((byte)(5)))));
             this.Contraseña.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.Contraseña.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Contraseña.ForeColor = System.Drawing.Color.DimGray;
@@ -171,7 +171,7 @@
             // 
             // Close
             // 
-            this.Close.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
+            this.Close.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(8)))), ((int)(((byte)(5)))));
             this.Close.ForeColor = System.Drawing.Color.DimGray;
             this.Close.IconChar = FontAwesome.Sharp.IconChar.Times;
             this.Close.IconColor = System.Drawing.Color.DimGray;
@@ -185,7 +185,7 @@
             // 
             // Minimizar
             // 
-            this.Minimizar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
+            this.Minimizar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(8)))), ((int)(((byte)(5)))));
             this.Minimizar.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.Minimizar.ForeColor = System.Drawing.Color.DimGray;
             this.Minimizar.IconChar = FontAwesome.Sharp.IconChar.GripLines;
@@ -202,7 +202,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(8)))), ((int)(((byte)(5)))));
             this.ClientSize = new System.Drawing.Size(780, 330);
             this.Controls.Add(this.Minimizar);
             this.Controls.Add(this.Close);
@@ -222,6 +222,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = ".:. Ingreso De Usuario .:.";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseMove);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Close)).EndInit();
